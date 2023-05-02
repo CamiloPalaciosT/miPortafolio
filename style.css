@@ -21,7 +21,7 @@ body{
 .context h1{
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 
@@ -559,4 +559,381 @@ a {
   height: 95vh;
   width: 75%;
   overflow: auto;
+}
+.habilidades{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.habilidades h2{
+  width: 100%;
+  font-size: 2em;
+}
+/*----------------------------------*/
+.cuadrosHabilidades {
+  max-width: 150px;
+  max-height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+/*--------------------------------*/
+.circleHtml {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleHtml:nth-child(2) {
+  stroke-dasharray: 90 100;
+  stroke: rgb(255, 72, 0);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 90 100; /* Valor final */
+  }
+}
+.porcentajeHtml {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenHtml {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(241, 60, 5)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+
+/*-----------------------------*/
+.circleCss {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleCss:nth-child(2) {
+  stroke-dasharray: 90 100;
+  stroke: rgb(0, 217, 255);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 90 100; /* Valor final */
+  }
+}
+.porcentajeCss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenCss {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(5, 174, 241)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*---------------------------*/
+.circleJs {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleJs:nth-child(2) {
+  stroke-dasharray: 80 100;
+  stroke: rgb(225, 241, 5);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 80 100; /* Valor final */
+  }
+}
+.porcentajeJs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenJs {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(225, 241, 5)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*---------------------*/
+.circleJq {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleJq:nth-child(2) {
+  stroke-dasharray: 70 100;
+  stroke: rgb(68, 5, 241);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 70 100; /* Valor final */
+  }
+}
+
+.porcentajeJq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenJq {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(68, 5, 241)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*------------------------*/
+.circleFigma {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleFigma:nth-child(2) {
+  stroke-dasharray: 60 100;
+  stroke: rgb(241, 5, 221);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 60 100; /* Valor final */
+  }
+}
+
+.porcentajeFigma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenFigma {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(241, 5, 221)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*----------------------------------*/
+.circlePs {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circlePs:nth-child(2) {
+  stroke-dasharray: 75 100;
+  stroke: rgb(50, 169, 249);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 75 100; /* Valor final */
+  }
+}
+
+.porcentajePs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenPs {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(50, 169, 249)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*--------------------------*/
+.circlePy {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circlePy:nth-child(2) {
+  stroke-dasharray: 40 100;
+  stroke: rgb(251, 211, 67);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 40 100; /* Valor final */
+  }
+}
+
+.porcentajePy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenPy {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(251, 211, 67)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
+}
+/*--------------------------*/
+.circleSql {
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 100 100;
+  stroke: #aaa;
+  transform: rotate(90deg);
+  transform-origin: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.circleSql:nth-child(2) {
+  stroke-dasharray: 40 100;
+  stroke: rgb(4, 172, 236);
+  animation: dasharrayAnimation 2s linear ;
+}
+
+@keyframes dasharrayAnimation {
+  0% {
+    stroke-dasharray: 0 100; /* Valor inicial */
+  }
+  100% {
+    stroke-dasharray: 40 100; /* Valor final */
+  }
+}
+
+.porcentajeSql {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.imagenSql {
+  width: 50%;
+  height: 50%;
+  filter: drop-shadow(0 0 15px rgb(4, 172, 236)) brightness(1.2) contrast(1.2) saturate(1.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  margin: 25%;
 }
