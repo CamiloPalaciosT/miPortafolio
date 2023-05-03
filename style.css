@@ -579,8 +579,7 @@ a {
   overflow: auto;
 }
 .proyectos{
-  background-color: rgba(0, 0, 0, .3);
-  color: whitesmoke;
+  color: whitesmoke; 
   padding: 0% 10%;
   position: fixed;
   bottom: 0%;
@@ -660,7 +659,7 @@ a {
 .circleHtml:nth-child(2) {
   stroke-dasharray: 90 100;
   stroke: rgb(255, 72, 0);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -705,7 +704,7 @@ a {
 .circleCss:nth-child(2) {
   stroke-dasharray: 90 100;
   stroke: rgb(0, 217, 255);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -749,7 +748,7 @@ a {
 .circleJs:nth-child(2) {
   stroke-dasharray: 80 100;
   stroke: rgb(225, 241, 5);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -793,7 +792,7 @@ a {
 .circleJq:nth-child(2) {
   stroke-dasharray: 70 100;
   stroke: rgb(68, 5, 241);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -838,7 +837,7 @@ a {
 .circleFigma:nth-child(2) {
   stroke-dasharray: 60 100;
   stroke: rgb(241, 5, 221);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -883,7 +882,7 @@ a {
 .circlePs:nth-child(2) {
   stroke-dasharray: 75 100;
   stroke: rgb(50, 169, 249);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -928,7 +927,7 @@ a {
 .circlePy:nth-child(2) {
   stroke-dasharray: 40 100;
   stroke: rgb(251, 211, 67);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -973,7 +972,7 @@ a {
 .circleSql:nth-child(2) {
   stroke-dasharray: 40 100;
   stroke: rgb(4, 172, 236);
-  animation: dasharrayAnimation 2s linear ;
+  animation: dasharrayAnimation 1s linear ;
 }
 
 @keyframes dasharrayAnimation {
@@ -1045,7 +1044,33 @@ a {
   } 
   }
 .cuadroExpDos{
-  max-width: 75%;
+  max-width: 100%;
   min-width: 50%;
   height: auto;
+
+}
+/*---------------Proyectos------*/
+.cuadroProyecto{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 7%;
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+}
+.imgCuadroProyecto{
+  min-width: 100%;
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+  transform: scale(0.8);
+}
+.imgCuadroProyecto:hover{
+  transform: scale(1.0);
+  border: 2px solid #f7f8f7; /* Color del borde neon */
 }
