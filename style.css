@@ -609,7 +609,6 @@ a {
   overflow: auto;
 }
 .contacto{
-  background-color: rgba(0, 0, 0, .3);
   color: whitesmoke;
   padding: 0% 10%;
   position: fixed;
@@ -622,6 +621,13 @@ a {
   height: 75%;
   width: 75%;
   overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 39px;
+  margin-top: 7%;
 }
 .habilidades{
   display: flex;
@@ -1116,13 +1122,7 @@ a {
 /*-----------contacto----------*/
 
 .contacto{
-  font-family: 'Montserrat', sans-serif;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border-radius: 39px;
-  margin-top: 7%;
+  
 }
 .forma__contenedor{
   font-family: 'Montserrat', sans-serif;;
