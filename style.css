@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -417,7 +417,7 @@ body{
 }
 .textoPefil h3 {
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .HojadeVida{
   height: 5vh;
@@ -619,8 +619,7 @@ a {
   top: 1%;
   justify-content: center;
   text-align: center;
-  border-radius: 80px;
-  height: 95vh;
+  height: 75%;
   width: 75%;
   overflow: auto;
 }
@@ -1113,4 +1112,37 @@ a {
   min-width: 50%;
   height: auto;
 
+}
+/*-----------contacto----------*/
+
+.contacto{
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 39px;
+  margin-top: 7%;
+}
+.forma__contenedor{
+  font-family: 'Montserrat', sans-serif;;
+  width: 100%;
+  display: grid;
+  gap: 2em;
+  grid-auto-columns: 100% ;
+}
+.forma__input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 15px;
+}
+.forma__input--mensaje{
+  resize: none;
+  height: 110%;
+  padding: 1.8em, 1em;
+  font-weight: 400px;
 }
